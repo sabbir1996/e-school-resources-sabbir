@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background: #F0FFF0;
+}
+.navbar{
+    padding-top: 20px !important;
+    text-align: right;
+}
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    color: black !important;
+    font-size: 15px !important;
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+    font-family: sans-serif;
+}
+.green{
+    color: #21b573;
+}
+.red{
+    color: #21b573;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.p{
+    color: #747474;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    background: #21b573;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 25px;
+    cursor: pointer;
+    color: white;
+}
+.button-2{
+    background: #21b573;
+    border: none;
+    border-radius: 20px;
+    padding: 3px 15px;
+    cursor: pointer;
+    color: white;
+}
+/*------service------*/
+.service{
+    margin: 75px 0;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:30;
+}
+.subtitle{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size:15px;
+}
+.service-box{
+    padding: 25px 25px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    text-align:center;
+}
+.service-box img{
+    width: 50px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.service-box h6{
+    margin-bottom:15px;
+    font-weight: bold;    
+}
+.service-box p{
+    font-size:14px;
+    color: #383838;
+    margin-bottom:25px;
+    cursor: pointer;
+    transition: .20s;
+}
+.service-box:hover,.active-service{
+    background: #21b573;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 10px 25px rgba(63, 131, 77, 0.5);
+}
+.service-box:hover p{
+    color: white;
+}
+.active-service p{
+    color: white;
+}
+/*-----------Card--------*/
+.card{
+    border:none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+h3{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.card-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fa-arrow-right{
+    font-size:22px !important;
+    margin:10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.fa-calendar-alt{
+    padding-left: 5px;
+}
+.date{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.users{
+    padding-left:60px;
+}
+/*--------Blog-------*/
+.Blog{
+    padding-top: 50px;
+}
+.review{
+    margin: 100px 0;
+}
+.carousel-item img{
+    width: 150px;
+    border-radius: 50%;
+}
+.carousel-item{
+    text-align: center;
+    height: 430px;
+}
+.carousel-caption{
+    z-index: -1 !important;
+    box-shadow: 0 0 15px 1px rgba(166,163,223,0.5);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.carousel-caption h6{
+    margin-top: 55px;
+    font-weight: bold;
+    color: black;
+}
+.carousel-caption small{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: block;
+    color: black;
+}
+.carousel-caption p{
+    text-align: center;
+    padding: 0 50px;
+    font-size: 15px;
+    color: #808080;
+}
+.carousel-indicators button{
+    background-color:#21b573 !important;
+}
+@media only screen and (max-width: 720px){
+    .carousel-item{
+        height: 520px
+}
+.carousel-caption{
+    margin: 0 10px 10px 10px;
+    left: 0 !important;
+    right: 0 !important;
+}
+}
+/*------------footer-------*/
+.Others{
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #21b573;
+}
+.Others small{
+    font-size: 15px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Others h5{
+    color: rgb(255, 255, 255);
+}
+.Others h3{
+    color: white;
+    padding-top:40px;
+}
+footer{
+    background: #21b573;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 20px;
+    color: #F0FFF0;
+}
